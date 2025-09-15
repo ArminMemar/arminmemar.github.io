@@ -4,25 +4,62 @@
   <meta charset="UTF-8">
   <title>Armin Memar Portfolio</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { color: #2c3e50; }
-    a { text-decoration: none; color: #3498db; }
+    /* Base styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    /* Card container */
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      max-width: 700px;
+      width: 100%;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 { color: #ffffff; margin-bottom: 10px; }
+    h2 { color: #ffffff; margin-top: 30px; margin-bottom: 15px; }
+    p { color: #cccccc; margin-bottom: 20px; line-height: 1.5; }
+
+    a { color: #00bfff; text-decoration: none; font-weight: bold; }
+    a:hover { text-decoration: underline; }
+
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 10px; }
+
+    .footer { margin-top: 40px; font-size: 0.9em; color: #888888; }
   </style>
 </head>
 <body>
-  <h1>Hi, I'm Armin Memar 👋</h1>
-  <p>BSc Mathematics and Applications student at Shahid Beheshti University</p>
-  <p>AI, Machine Learning & Data Science Enthusiast</p>
+  <div class="card">
+    <h1>Hi, I'm Armin Memar.</h1>
+    <p>Incoming BSc Applied Mathematics student</p>
+    <p>Passionate about exploring the intersection of mathematics and computer science. I enjoy building projects, experimenting with new ideas, and learning cutting-edge technologies.</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://github.com/ArminMemar/project1">Project 1: Neural Network Classifier</a></li>
-    <li><a href="https://github.com/ArminMemar/project2">Project 2: Data Analysis Dashboard</a></li>
-  </ul>
+    <h2>Projects & Experiments</h2>
+    <ul>
+      <li><a href="https://github.com/ArminMemar/CantorCipher">Experiment 1: CantorCipher</a> – A lightweight cryptographic algorithm inspired by Cantor’s diagonal argument, enhanced with Boolean logic and multi-round bitwise mixing. Includes built-in message authentication and tamper detection.</li>
 
-  <h2>Contact</h2>
-  <p>Email: youremail@example.com</p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/arminmemar">linkedin.com/in/arminmemar</a></p>
-  <p>GitHub: <a href="https://github.com/ArminMemar">github.com/ArminMemar</a></p>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: </p>
+    <p>GitHub: <a href="https://github.com/ArminMemar">github.com/ArminMemar</a></p>
+
+    <div class="footer">
+      © 2025 Armin Memar
+    </div>
+  </div>
 </body>
 </html>
